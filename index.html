@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KURNIAWAN WEB</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+
+    <style>
+        body {
+            background-color: whitesmoke;
+            font-family: sans-serif;
+        }
+        .bawah2 {
+            background-color: black;
+        }
+        .gambar {
+            max-width: 100%;
+            height: 300px;
+        }
+        .a {
+            height:750px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow p-3 mb-5" id="mainNav " >
+        <div class="container"> 
+            <a class="navbar-brand" href="index.html" style="font-family: sans-serif; font-size: 30px;">KURNIAWAN</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Beranda</a>                                                                        
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pr">Tentang</a>
+                </li>                                
+                <li class="nav-item">
+                <a class="nav-link " href="#about1">Pengalaman</a>                                                          
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Login.html">Kontak</a>                                    
+                </li>                
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-12">
+            <center>
+               <h4><b>SELAMAT DATANG<br>DI HALAMAN WEB KURNIAWAN</b></h4>
+                <img src="profile.jpeg" width="270px" class="rounded-circle shadow mb-5 mt-5" alt="Ini saya"> <!--mb mt = margin -bottom/top--> <!---shadow ya untuk ngebuat shadow-->  
+                <h4><b>Saya menyukai</b></h4><br>
+            </center>
+        </div>       
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"> <!----penjelasan col-sm md lg xl = mereka semua itu ukuran device, kenapa ada angka 6 karena di grid system di layar ada 12 jadi klo misalkan 6 dia ngebuat 2 dilayar klo 12 ya 1 kolom saja, jadi col-sm-6 artinya = jika ukuran device sm maka akan ngebuat 2 kolom ---> 
+                <div class="card mb-5 shadow"> 
+                    <div class="card-body a">
+                        <center>
+                            <br><h5>Main Futsal</h5><br><br>
+                            <img src="futsal.jpg" alt="traveling"  class="img-fluid gambar  mb-3"> 
+                            <p class="card-text"><br>Futsal<br>Saya sangat menyukai futsal, hampir setiap hari selalu bermain futsal.<br>Biasanya sehari dapat mengahabiskan waktu 1-2 jam.</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="card shadow">
+                    <div class="card-body a">
+                        <center>
+                           <br><h5>Main Piano</h5><br><br>
+                            <img src="piano.jpg" alt="music" class="img-fluid gambar mb-3">
+                            <p class="card-text"><br>Piano<br>Saya sangat suka bermain alat musik salah satunya piano.<br>Saya mulai bermain piano sejak kelas 2 SD,<br>hingga saat ini saya masih suka bermain.</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
